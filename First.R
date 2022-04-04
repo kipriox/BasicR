@@ -3,3 +3,9 @@ a <- 8
 a
 b <- 3
 a*b
+c <- a*b
+c
+rm(c)
+ls()
+rm(list = ls())
+
