@@ -112,10 +112,10 @@ typeof(diamonds)
 hist(diamonds$price)
 
 hist(diamonds$price,
-     breaks=150, col = "#00ff00")
+     breaks=200, col = "#cc0000")
 
 colors <- table(diamonds$color)
 colors
-barplot(colors, col = "#cc0000")
+barplot(colors, col = "#00ff00")
 
 rm(list=ls())
